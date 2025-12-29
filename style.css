@@ -1,8 +1,15 @@
 body {
-    background-color: #f0f8ff; /* 背景をうすい青に */
-    text-align: center;
-    font-family: sans-serif;
+  font-family: sans-serif;
+  background: #f7f7f7;
+  padding: 20px;
 }
-h1 {
-    color: #333;
+
+.gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 8px;
 }
