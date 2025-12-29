@@ -22,7 +22,6 @@ body {
 
 .gallery img:hover {
   transform: scale(1.1); /* ★1.1倍の大きさに拡大する */
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* ★影を濃くして、より浮き上がったように見せる */
   cursor: pointer;       /* ★マウスの形を「指マーク」に変える */
 }
 
