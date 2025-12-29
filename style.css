@@ -13,15 +13,21 @@ body {
 }
 
 .gallery img {
-  width: 200px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 
 .item {
   background: #fff;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 12px;
+  border-radius: 12px;
+  width: 240px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
+
 
 .title {
   font-weight: bold;
