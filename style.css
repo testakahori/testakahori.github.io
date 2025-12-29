@@ -5,6 +5,16 @@ body {
   padding: 20px;
 }
 
+p {
+  line-height: 1.8;
+}
+
+.about {
+  max-width: 720px;
+  margin: 0 auto 18px;
+}
+
+
 .gallery {
   display: flex;
   justify-content: center;
